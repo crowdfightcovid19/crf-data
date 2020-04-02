@@ -1,14 +1,14 @@
-This folder contains the ground truth data from the task distributions forms set to the volunteers.
-These files are created from the /data_preprocessing_scripts/convert_task_distribution.py script with the following task distribution files:
+This folder contains the anonymized data from the task distributions Google Forms sent to the volunteers.
 
-- Task distribution20200320.csv
-- Task distribution20200324.csv
-- Task distribution20200325.csv
+- **tasks_20200320.csv**: 'Task distribution 20200320.csv' with data_anonymization.py
+- **tasks_20200324.csv**: 'Task distribution 20200324.csv' with data_anonymization.py
+- **tasks_20200325.csv**: 'Task distribution 20200325.csv' with data_anonymization.py
+- **tasks_20200327.csv**: 'Task distribution 20200327.csv' with data_anonymization.py
+- **tasks_20200328.csv**: 'Task distribution 20200328.csv' with data_anonymization.py
+- **tasks_20200330.csv**: 'Task distribution 20200330.csv' with data_anonymization.py
 
+After running the script /data_preprocessing_scripts/join_tasks_distribution_data.py the following files should appear
+in this folder
 
-**requests_train.csv** - Contains the requests that appear in the task distribution forms sent to the volunteers. 
-
-
-**responses_train.csv** - Contains the rating of the volunteers for each request/task. The column 'volunteer' matches the column 'volunteer' in the ../volunteers.csv file. The column 'request' matches the column with the same name in the requests_train.csv file of this folder. 
-
-The 'request' column in both files matches but we do not have yet a match with the to-be-constructed requests.csv file (coming from the new ticketing system). 
+- **tasks_descriptions.csv**
+- **tasks_volunteers_responses.csv**
