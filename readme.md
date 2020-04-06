@@ -10,7 +10,7 @@ After running the preprocess_data.py script the following files are created here
 - **volunteers.csv**
 - **tasks.csv**
 
-After running the script generate_resposnes_train.py the following file is create here.
+After running the script generate_ratings_train.py the following file is create here.
 
-- **responses_train.csv**
+- **ratings_train.csv**
 
