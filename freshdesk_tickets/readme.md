@@ -1,1 +1,0 @@
-This folder contains data from the FreshDesk system
