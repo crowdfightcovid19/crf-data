@@ -1,8 +1,4 @@
-*.csv
-*.zip
-*.xml
-*.txt
-*.xlsx
+*
 
-# pycharm folder
-\.idea/
+!*.md
+
